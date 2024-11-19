@@ -7,5 +7,5 @@ pip install -r requirements.txt
 ### Собрать приложение
 
 ```bash
- pyinstaller --onefile --windowed --icon=icon.png main.py
+ pyinstaller --onefile --windowed --icon=icon.ico main.py
 ```
