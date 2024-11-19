@@ -13,7 +13,7 @@ class FullscreenWindow(QMainWindow):
         self.browser = QWebEngineView()
 
         self.profile = QWebEngineProfile.defaultProfile()
-        self.browser.setUrl(QUrl("http://localhost:3000/"))
+        self.browser.setUrl(QUrl("http://83.222.24.22:3000/"))
 
         self.setCentralWidget(self.browser)
         self.setMinimumSize(875, 600)
